@@ -33,4 +33,4 @@ const deleteHouse = async (id) => {
     return{ message: "Casa deletada com sucesso!" };
 }
 
-module.exports = { getHouses, getHouseById, createHouse, updateHouse };
+module.exports = { getHouses, getHouseById, createHouse, updateHouse, deleteHouse };
