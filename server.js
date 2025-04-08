@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/api", wizardRoutes);
+app.use("/api/wizards", wizardRoutes);
 app.use("/api", houseRoutes);
 app.use("/api", reportRoutes);
 
